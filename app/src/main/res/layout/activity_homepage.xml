@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageActivity">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_heading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/teal_700">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Homepage"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/person_black" />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_below="@+id/rl_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/iv_help"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="-20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/siu" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:layout_alignParentLeft="true"
+            android:text="Welcome !! "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Book a Verified Nurse to :"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_help2"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_help"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="[ Select a Option From Below ]"
+            android:textSize="15dp"
+            android:fontFamily="serif" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_options"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_help2"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                >
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cv_bp"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:elevation="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginEnd="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_bp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:background="@drawable/shape_border"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_bp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/bp" />
+
+                        <TextView
+                            android:id="@+id/tv_bp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/iv_bp"
+                            android:layout_centerHorizontal="true"
+                            android:background="#F3F3F3"
+                            android:gravity="center"
+                            android:text="Measure Your BP
+                            (Blood Presser)"
+                            android:textColor="@color/black"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_bp_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_bp"
+                            android:layout_centerHorizontal="true"
+                            android:background="#D8E4EA"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Rs :   30"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cv_sugar"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:elevation="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_sugar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:background="@drawable/shape_border"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_fuel"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/sugar" />
+
+                        <TextView
+                            android:id="@+id/tv_sugar"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/iv_fuel"
+                            android:layout_centerHorizontal="true"
+                            android:background="#F3F3F3"
+                            android:gravity="center"
+                            android:text="Measure Your Blood Sugar Level (Instantly)"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_bp_sugar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_sugar"
+                            android:layout_centerHorizontal="true"
+                            android:background="#D8E4EA"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Rs :   100"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Order History"
+        app:srcCompat="@drawable/order" />
+
+
+
+    </RelativeLayout>

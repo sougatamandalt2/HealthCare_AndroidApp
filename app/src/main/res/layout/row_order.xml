@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="3dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape03"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_orderType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="BP Measure"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_orderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="DD/MM/YYYY"/>
+
+        <TextView
+            android:id="@+id/tv_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name : Sougata Mandal"
+            android:layout_below="@id/tv_orderType"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="1dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_orderAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_orderDate"
+            android:layout_alignParentRight="true"
+            android:text="Rs :  30 (COD)"
+            android:textSize="16dp"
+            android:layout_marginTop="1.5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_orderAmount"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1.5dp"
+            android:text="Order Received"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/tv_relation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pname"
+            android:text="Relation : Myself"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="1dp"
+            />
+        <TextView
+            android:id="@+id/tv_OrderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_relation"
+            android:text="Order ID : 123456789"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="1dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

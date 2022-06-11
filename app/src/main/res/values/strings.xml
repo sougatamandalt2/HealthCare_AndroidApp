@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="title_activity_maps">MapActivity</string>
+<!--    <string name="map_key" translatable="false">AIzaSyDPJ4tzmwFwBtqvIVGH5SnJ94SXihKphog</string>-->
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

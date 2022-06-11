@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/about_black.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape03.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape04.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape2.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape_05.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape_border.xml" value="0.1045" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shape_style.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/shapeback.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/drawable/support_black.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/about_black.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_checkout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_location.xml" value="0.2" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_map.xml" value="0.22" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_mobile_no.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_notserviceable.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_orderhistory.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_orders_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_registration.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/activity_update_name.xml" value="0.2" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/list_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/layout/row_order.xml" value="0.25" />
+        <entry key="..\:/Demo/HealthCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/drawable/about_black.xml" value="0.1195" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/drawable/shape_style.xml" value="0.1195" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/layout/activity_homepage_admin.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/layout/activity_login_admin.xml" value="0.18" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/layout/activity_main_admin.xml" value="0.1787037037037037" />
+        <entry key="..\:/Demo/HealthCare/healthcareadmin/src/main/res/layout/activity_mobile_no_admin.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
